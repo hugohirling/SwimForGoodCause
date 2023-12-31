@@ -3,7 +3,7 @@ import { Container, Navbar, Nav, Button } from "react-bootstrap";
 function Footer() {
 
     return (
-        <Navbar fixed="bottom" expand="sm" bg="primary" className="bottom-0" id="footer">
+        <Navbar expand="sm" bg="primary" id="footer" className="position-absolute bottom-0 w-100">
             <Container fluid>
                 <Nav>
                     <Nav.Item>

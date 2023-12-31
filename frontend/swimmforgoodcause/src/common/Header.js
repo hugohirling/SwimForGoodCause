@@ -4,9 +4,9 @@ import {Link} from "react-router-dom";
 function Header() {
 
     return (
-        <Navbar expand="md" bg="primary" sticky="top">
+        <Navbar expand="md" bg="primary" sticky="top" id="header">
             <Container fluid>
-                <Navbar.Brand as={Link} to="/" className="py-0 mr-3"><img src="/logo.svg" height="80" role="svg"/></Navbar.Brand>
+                <Navbar.Brand as={Link} to="/" className="py-0 mr-3"><img src="/logo.svg" height="60" role="svg"/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <div className="w-100 d-flex flex-wrap justify-content-xl-between align-items-center m-0">

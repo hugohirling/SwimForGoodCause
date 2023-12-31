@@ -3,10 +3,10 @@ import { Row, Col } from "react-bootstrap";
 
 function TopRankingListItem({number, name, distance}) {
     return (
-        <div className="mx-4 my-2">
+        <div className="mx-1 my-2">
             <Row>
-                <Col md="3">
-                    <strong className="pe-3">{number}. Platz</strong>
+                <Col md="3" sm="3" xs="3">
+                    <strong className="pe-2">{number}. Platz</strong>
                     {
                         number === 1
                         ?
@@ -27,10 +27,10 @@ function TopRankingListItem({number, name, distance}) {
                         )
                     }
                 </Col>
-                <Col md="6" className="text-center">
+                <Col md="6" sm="6" xs="6" className="text-center">
                     {name}
                 </Col>
-                <Col md="3" className="text-end">
+                <Col md="3" sm="3" xs="3" className="text-end">
                     {distance}
                 </Col>
             </Row>
