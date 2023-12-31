@@ -9,7 +9,7 @@
 /frontend/swimmforgoodcause//coverage
 
 # production
-/frontend/swimmforgoodcause//build
+/frontend/swimmforgoodcause/build
 
 # misc
 .DS_Store
